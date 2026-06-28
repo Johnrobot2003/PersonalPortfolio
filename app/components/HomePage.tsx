@@ -144,7 +144,7 @@ export default function HomePage() {
               className="text-[11px] font-bold bg-zinc-900 hover:bg-zinc-800 text-white dark:bg-zinc-100 dark:hover:bg-zinc-200 dark:text-black px-3.5 py-2 rounded-xl transition-all uppercase tracking-wider"
             >
               🎮 Play Mini Game!
-            </button>
+            </button>     
           )}
         </div>
 
