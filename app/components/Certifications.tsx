@@ -21,7 +21,16 @@ const certifications = [
   {
     title: "2025 - Web Developer Bootcamp By Colt Steele",
     image: "webDevBootcamp2025.png",
-  }
+  },
+   {
+    title: "2026 - Codekada: The online Hackathon",
+    image: "codekada.png",
+  },
+  {
+    title: "2026 - SAP Certified - Implementation Consultant - End-to-End Business Processes for SAP Business Suite",
+    image: "SAP_CERTIFIED.png",
+  },
+
 ]
 
 export default function Certifications() {

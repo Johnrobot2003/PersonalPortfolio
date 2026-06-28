@@ -127,7 +127,7 @@ export default function Contact() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="John Doe"
+                  placeholder="Your name"
                   className={`mt-1 ${errors.name ? 'border-red-500 focus:ring-red-500' : ''}`}
                   aria-invalid={!!errors.name}
                   aria-describedby={errors.name ? 'name-error' : undefined}
@@ -154,7 +154,7 @@ export default function Contact() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="john.doe@example.com"
+                  placeholder="youremail@email.com"
                   className={`mt-1 ${errors.email ? 'border-red-500 focus:ring-red-500' : ''}`}
                   aria-invalid={!!errors.email}
                   aria-describedby={errors.email ? 'email-error' : undefined}
